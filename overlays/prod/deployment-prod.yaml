@@ -13,7 +13,7 @@ spec:
             cpu: "1" # Lower CPU limit to 200m (0.2 CPU cores)
             memory: "1Gi" # Lower memory limit to 256 MiB
           requests:
-            cpu: "500" # Lower CPU request to 100m (0.1 CPU cores)
+            cpu: "500m" # Lower CPU request to 100m (0.1 CPU cores)
             memory: "512Mi" # Lower memory request to 128 MiB
   strategy:
     type: RollingUpdate
